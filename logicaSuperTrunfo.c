@@ -62,10 +62,10 @@ int main() {
     float pibpercapita2 = pib2 / populacao2;
 
     printf("\n");
-    printf("Carta 1 - Densidade populacional = %.2f hab/km²\n",densidade1); 
-    printf("Carta 2 - Densidade populacional = %.2f hab/km²\n", densidade2);
-    printf("PIB per capita = %.2f\n",pibpercapita1);
-    printf("PIB per capita = %.2f\n",pibpercapita2);
+    printf("Densidade populacional(CARTA 1) = %.2f hab/km²\n",densidade1); 
+    printf("Densidade populacional(CARTA 2) = %.2f hab/km²\n", densidade2);
+    printf("PIB per capita(CARTA 1) = %.2f\n",pibpercapita1);
+    printf("PIB per capita(CARTA 2) = %.2f\n",pibpercapita2);
 
     // comparação
     printf("\nComparação de cartas (atributo: população):\n");
